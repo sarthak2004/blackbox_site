@@ -51,7 +51,7 @@ const Search = styled('div')(({ theme }) => ({
     },
   }));
 
-function Navbar() {
+function Navbar({ toggleDrawer }) {
   return (
     <Box sx={{ flexGrow: 1 }}>
         <AppBar position="static">
@@ -62,6 +62,7 @@ function Navbar() {
             color="inherit"
             aria-label="open drawer"
             sx={{ mr: 2 }}
+            onClick={toggleDrawer('left', true)}
             >
             <MenuIcon />
             </IconButton>
@@ -71,7 +72,7 @@ function Navbar() {
             component="div"
             sx={{ flexGrow: 1, display: { xs: 'none', sm: 'block' } }}
             >
-            MUI
+            Shaadiwale.com
             </Typography>
             <Search>
             <SearchIconWrapper>
