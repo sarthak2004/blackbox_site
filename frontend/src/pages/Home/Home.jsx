@@ -1,6 +1,15 @@
+
 import React, { useState } from 'react'
+import Card1 from '../../components/Card1/Card1';
+import Card2 from '../../components/Card2/Card2';
+import Card3 from '../../components/Card3/Card3';
+import Card4 from '../../components/Card4/Card4';
+import Card5 from '../../components/Card5/Card5';
+import Card6 from '../../components/Card6/Card6';
+
 import Navbar from '../../components/Navbar/Navbar'
 import Sidepanel from '../../components/Sidepanel/Sidepanel'
+import './Home.css'
 
 function Home() {
   const [state, setState] = useState({
@@ -22,6 +31,35 @@ function Home() {
     <div>
         <Navbar toggleDrawer={toggleDrawer} />
         <Sidepanel state={state} toggleDrawer={toggleDrawer} />
+        <div className='column'>
+
+        
+
+        <div  className='row' >
+          
+            <Card1/>
+            <Card2/>
+            <Card3/>
+
+
+        </div>
+        
+
+        <div  className='row' >
+            <Card4/>
+            <Card5/>
+            <Card6/>
+
+
+          
+            
+        </div>
+
+       </div>
+        
+        
+        
+
         
 
     </div>

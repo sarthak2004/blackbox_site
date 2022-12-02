@@ -1,0 +1,102 @@
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 19px;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+
+
+.card1:hover{
+    
+    transform: translate3D(0,-1px,0) scale(1.1);
+
+
+
+}
+.card1{
+    
+
+    border-radius: 10%;
+    
+    
+}
+
+.card2:hover{
+    
+    transform: translate3D(0,-1px,0) scale(1.1);
+
+
+
+}
+.card2{
+
+    border-radius: 10%;
+    
+}
+
+
+.card3:hover{
+    
+    transform: translate3D(0,-1px,0) scale(1.1);
+
+
+
+}
+.card3{
+
+    border-radius: 10%;
+    
+}
+
+
+.card4:hover{
+    
+    transform: translate3D(0,-1px,0) scale(1.1);
+
+
+
+}
+.card4{
+
+    border-radius: 10%;
+    
+}
+
+
+.card5:hover{
+    
+    transform: translate3D(0,-1px,0) scale(1.1);
+
+
+
+}
+.card5{
+
+    border-radius: 10%;
+    
+}
+
+
+.card6:hover{
+    
+    transform: translate3D(0,-1px,0) scale(1.1);
+
+
+
+}
+.card6{
+
+    border-radius: 10%;
+    
+}
+
+
+
+
