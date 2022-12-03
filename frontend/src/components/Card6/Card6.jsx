@@ -22,10 +22,10 @@ import {CardActionArea } from '@mui/material';
           />
           <CardContent>
             <Typography gutterBottom variant="h5" component="div">
-              DECORATOR
+              PHOTOGRAPHER
             </Typography>
             <Typography variant="body2" color="text.secondary">
-              MODULAR (As you like)
+              SIRF MUH SE NIKLEGA MASALLAH
             </Typography>
           </CardContent>
         </CardActionArea>

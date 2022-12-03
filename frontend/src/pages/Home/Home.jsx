@@ -29,13 +29,15 @@ function Home() {
 
   return (
     <div>
+      
         <Navbar toggleDrawer={toggleDrawer} />
+      
         <Sidepanel state={state} toggleDrawer={toggleDrawer} />
-        <div className='column'>
+       
 
         
 
-        <div  className='row' >
+        <div  className='row1' >
           
             <Card1/>
             <Card2/>
@@ -45,7 +47,7 @@ function Home() {
         </div>
         
 
-        <div  className='row' >
+        <div  className='row2' >
             <Card4/>
             <Card5/>
             <Card6/>
@@ -56,13 +58,13 @@ function Home() {
         </div>
 
        </div>
-        
+      
         
         
 
         
 
-    </div>
+   
   )
 }
 

@@ -54,13 +54,15 @@ const Search = styled('div')(({ theme }) => ({
 function Navbar({ toggleDrawer }) {
   return (
     <Box sx={{ flexGrow: 1 }}>
-      
-        <AppBar position="fixed">
+
+        <AppBar>
+          
+          
         <Toolbar>
             <IconButton
             size="large"
             edge="start"
-            color="inherit"
+            color='inherit'
             aria-label="open drawer"
             sx={{ mr: 2 }}
             onClick={toggleDrawer('left', true)}
@@ -68,12 +70,12 @@ function Navbar({ toggleDrawer }) {
             <MenuIcon />
             </IconButton>
             <Typography
-            variant="h6"
+            variant="h4"
             noWrap
             component="div"
             sx={{ flexGrow: 1, display: { xs: 'none', sm: 'block' } }}
             >
-            Shaadiwale.com
+            ShaadiWale.com
             </Typography>
             <Search>
             <SearchIconWrapper>
