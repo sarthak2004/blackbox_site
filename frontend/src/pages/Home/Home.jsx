@@ -28,12 +28,16 @@ function Home() {
   };
 
   return (
-    <div>
-      
+    <div className='background'>
+            
+
         <Navbar toggleDrawer={toggleDrawer} />
       
         <Sidepanel state={state} toggleDrawer={toggleDrawer} />
-       
+        
+             
+      <div className='column'>
+
 
         
 
@@ -50,21 +54,12 @@ function Home() {
         <div  className='row2' >
             <Card4/>
             <Card5/>
-            <Card6/>
-
-
-          
-            
+            <Card6/>            
+        
+        
         </div>
-
        </div>
-      
-        
-        
-
-        
-
-   
+    </div>
   )
 }
 

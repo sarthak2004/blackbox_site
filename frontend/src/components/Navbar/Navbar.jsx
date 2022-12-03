@@ -8,6 +8,7 @@ import Typography from '@mui/material/Typography';
 import InputBase from '@mui/material/InputBase';
 import MenuIcon from '@mui/icons-material/Menu';
 import SearchIcon from '@mui/icons-material/Search';
+import AccountCircleIcon from '@mui/icons-material/AccountCircle';
 
 const Search = styled('div')(({ theme }) => ({
     position: 'relative',
@@ -33,6 +34,15 @@ const Search = styled('div')(({ theme }) => ({
     alignItems: 'center',
     justifyContent: 'center',
   }));
+
+  const AccountIconproperty = styled('div')(({ theme }) => ({
+    padding: theme.spacing(0, 2),
+    height: '100%',
+    pointerEvents: 'none',
+    display: 'flex',
+    position: 'right'
+  }));
+  
   
   const StyledInputBase = styled(InputBase)(({ theme }) => ({
     color: 'inherit',
@@ -54,10 +64,7 @@ const Search = styled('div')(({ theme }) => ({
 function Navbar({ toggleDrawer }) {
   return (
     <Box sx={{ flexGrow: 1 }}>
-
-        <AppBar>
-          
-          
+        <AppBar position="fixed">
         <Toolbar>
             <IconButton
             size="large"
@@ -86,6 +93,11 @@ function Navbar({ toggleDrawer }) {
                 inputProps={{ 'aria-label': 'search' }}
             />
             </Search>
+            <a href='/admin/'>
+              <AccountIconproperty>
+                <AccountCircleIcon sx={{ fontSize: 35 }} />
+              </AccountIconproperty>
+            </a>
         </Toolbar>
         </AppBar>
       
