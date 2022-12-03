@@ -14,7 +14,7 @@ function Card2(){
         <CardActionArea>
           <CardMedia
             component="img"
-            image="/banquet.png"
+            image="/floristresized.png"
             alt="CardMedia Image Example"
             height="auto"
             title="CardMedia Image Example"

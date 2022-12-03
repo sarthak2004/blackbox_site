@@ -14,7 +14,7 @@ import {CardActionArea } from '@mui/material';
         <CardActionArea>
           <CardMedia
             component="img"
-            image="/banquet.png"
+            image="/photographer-resized.png"
             alt="CardMedia Image Example"
             height="auto"
             title="CardMedia Image Example"
