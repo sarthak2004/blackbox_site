@@ -20,7 +20,7 @@ const Search = styled('div')(({ theme }) => ({
     marginLeft: 0,
     width: '100%',
     [theme.breakpoints.up('sm')]: {
-      marginLeft: theme.spacing(60),
+      marginLeft: theme.spacing(47),
       width: 'auto',
     },
   }));
@@ -41,7 +41,7 @@ const Search = styled('div')(({ theme }) => ({
     pointerEvents: 'none',
     display: 'flex',
     position: 'right',
-    marginLeft: theme.spacing(65)
+    marginLeft: theme.spacing(58)
   }));
   
   
@@ -53,9 +53,9 @@ const Search = styled('div')(({ theme }) => ({
       paddingLeft: `calc(1em + ${theme.spacing(4)})`,
       width: '100%',
       [theme.breakpoints.up('sm')]: {
-        width: '20ch',
+        width: '40ch',
         '&:focus': {
-          width: '20ch',
+          width: '40ch',
         },
       },
     },

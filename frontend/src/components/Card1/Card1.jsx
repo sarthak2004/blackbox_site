@@ -4,21 +4,20 @@ import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
 import {CardActionArea } from '@mui/material';
-import banquet from '../../images/banquet.png'
 import { Link } from 'react-router-dom';
 
-function Card1() {
+function Card1({ image, text } ) {
   return (
     <Link to='/example'>
       <div className='card1'>
         
-        <Card sx={{ maxWidth: 345 }}>
+        <Card sx={{ maxWidth: 430 }}>
         
           <CardActionArea>
           
             <CardMedia
               component="img"
-              image={banquet}
+              image={image}
               alt="CardMedia Image Example"
               height="auto"
               title="CardMedia Image Example"
@@ -28,10 +27,10 @@ function Card1() {
             />
             <CardContent>
             
-              <Typography gutterBottom variant="h5" component="div">
-                BANQUET HALL
+              <Typography variant="h5" component="div">
+                {text} 
               </Typography>
-              <Typography variant="body2" color="text.secondary">
+              <Typography variant="body5" color="text.secondary">
                 PREMIUM LOCATIONS
               </Typography>
               

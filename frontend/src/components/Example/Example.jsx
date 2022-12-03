@@ -3,7 +3,7 @@ import './Example.css'
 
 function example() {
   return (
-    <div className='try'>example</div>
+    <div className='try'>sample text</div>
   )
 }
 

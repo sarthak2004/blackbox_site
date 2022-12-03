@@ -14,8 +14,8 @@
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    margin-bottom: 5px;
-    margin-top: 80px;
+    margin-bottom: 2%;
+    margin-top: 6%;
 }
 
 .row2 {
@@ -37,6 +37,7 @@
 .card1:hover{
     
     transform: translate3D(0,-1px,0) scale(1.1);
+    -webkit-transition: transform 0.5s ease-in-out;
 
 }
 .card1{
@@ -44,75 +45,6 @@
 
     border-radius: 10%;
     
-    
-}
-
-.card2:hover{
-    
-    transform: translate3D(0,-1px,0) scale(1.1);
-
-
-
-}
-.card2{
-
-    border-radius: 10%;
-    
-}
-
-
-.card3:hover{
-    
-    transform: translate3D(0,-1px,0) scale(1.1);
-
-
-
-}
-.card3{
-
-    border-radius: 10%;
-    
-}
-
-
-.card4:hover{
-    
-    transform: translate3D(0,-1px,0) scale(1.1);
-
-
-
-}
-.card4{
-
-    border-radius: 10%;
-    
-}
-
-
-.card5:hover{
-    
-    transform: translate3D(0,-1px,0) scale(1.1);
-
-
-
-}
-.card5{
-
-    border-radius: 10%;
-    
-}
-
-
-.card6:hover{
-    
-    transform: translate3D(0,-1px,0) scale(1.1);
-
-
-
-}
-.card6{
-
-    border-radius: 10%;
     
 }
 

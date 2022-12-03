@@ -1,11 +1,11 @@
-
 import React from 'react'
 import Card1 from '../../components/Card1/Card1';
-import Card2 from '../../components/Card2/Card2';
-import Card3 from '../../components/Card3/Card3';
-import Card4 from '../../components/Card4/Card4';
-import Card5 from '../../components/Card5/Card5';
-import Card6 from '../../components/Card6/Card6';
+import Banquet from '../../images/Banquet.png';
+import florist from '../../images/floristresized.png';
+import catering from '../../images/catring2.png';
+import DJ from '../../images/DJresized.png';
+import lights from '../../images/fairy-lights-resized.png';
+import photo from '../../images/photographer-resized.png';
 
 
 import './Home.css'
@@ -23,18 +23,18 @@ function Home() {
 
         <div  className='row1' >
           
-            <Card1/>
-            <Card2/>
-            <Card3/>
+            <Card1 image={Banquet} text="Banquet Halls" />
+            <Card1 image={florist} text="Florist"/>
+            <Card1 image={catering} text="Catering"/>
 
 
         </div>
         
 
         <div  className='row2' >
-            <Card4/>
-            <Card5/>
-            <Card6/>            
+          <Card1 image={DJ} text="DJ"/>
+          <Card1 image={lights} text="Lighting"/>
+          <Card1 image={photo} text="Photographer"/>         
         
         
         </div>
