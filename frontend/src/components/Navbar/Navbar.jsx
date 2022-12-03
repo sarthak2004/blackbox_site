@@ -39,7 +39,9 @@ const Search = styled('div')(({ theme }) => ({
     padding: theme.spacing(0, 2),
     height: '100%',
     pointerEvents: 'none',
-    marginLeft: theme.spacing(65),
+    display: 'flex',
+    position: 'right',
+    marginLeft: theme.spacing(65)
   }));
   
   
