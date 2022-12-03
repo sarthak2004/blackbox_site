@@ -41,7 +41,7 @@ const Search = styled('div')(({ theme }) => ({
     pointerEvents: 'none',
     display: 'flex',
     position: 'right',
-    marginLeft: theme.spacing(80)
+    marginLeft: theme.spacing(65)
   }));
   
   
