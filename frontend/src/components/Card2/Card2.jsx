@@ -4,6 +4,7 @@ import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
 import {CardActionArea } from '@mui/material';
+import florist from '../../images/floristresized.png'
 
 function Card2(){
   return (
@@ -14,7 +15,7 @@ function Card2(){
         <CardActionArea>
           <CardMedia
             component="img"
-            image="/floristresized.png"
+            image={florist}
             alt="CardMedia Image Example"
             height="auto"
             title="CardMedia Image Example"

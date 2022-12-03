@@ -1,5 +1,5 @@
 .background{
-    background-image: url('/public/background2opacityfix.png');
+    background-image: url('../src/images/background2opacityfix.png');
     background-attachment: fixed;
     background-repeat: calc();
 }
