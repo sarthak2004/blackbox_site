@@ -54,7 +54,8 @@ const Search = styled('div')(({ theme }) => ({
 function Navbar({ toggleDrawer }) {
   return (
     <Box sx={{ flexGrow: 1 }}>
-        <AppBar position="static">
+      
+        <AppBar position="fixed">
         <Toolbar>
             <IconButton
             size="large"
@@ -85,6 +86,7 @@ function Navbar({ toggleDrawer }) {
             </Search>
         </Toolbar>
         </AppBar>
+      
     </Box>
   )
 }
