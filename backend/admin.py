@@ -5,7 +5,7 @@ from .models import catering
 from .models import dj
 from .models import lighting
 from .models import photographer
-from .models import images
+# from .models import images
 
 
 admin.site.register(Banquet_halls)
@@ -16,6 +16,6 @@ admin.site.register(dj)
 admin.site.register(lighting)
 admin.site.register(photographer)
 
-admin.site.register(images)
+# admin.site.register(images)
 
 # Register your models here.
