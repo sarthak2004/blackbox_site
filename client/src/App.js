@@ -14,7 +14,8 @@ import CustomNavbar from './components/CustomNavbar'
 const App =() => {
   return (
     <>
-    {/* <Routing /> */}
+    <div className='background'>
+    </div>
     </>
   );
 }
