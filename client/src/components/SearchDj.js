@@ -24,7 +24,7 @@ const SearchDj = () => {
     
   return (
     <>
-    <div>
+    <div className='background'>
     <Container>
         <Row>
             <Col></Col>
