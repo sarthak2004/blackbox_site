@@ -15,7 +15,14 @@ Now, move to client folder and install the dependencies
 ```bash
 yarn install 
 ```
+```bash
+attention :- to  run succcefully you have to run 
+python manage.py runserver
 
+and in client directory 
+npm start
+
+```
 
 ## Running the program
 In main directory use the following to start the server:
