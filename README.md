@@ -20,8 +20,9 @@ attention :- to  run succcefully you have to run
 ```bash
  python manage.py runserver
  ```
-```bash
+
 and in client directory run
+```bash
  npm start
 
 ```
