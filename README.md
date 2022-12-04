@@ -16,7 +16,7 @@ Now, move to client folder and install the dependencies
 yarn install 
 ```
 
-attention :- to  run succcefully you have to run
+ATTENTION :- to  run succcefully you have to run
 ```bash
  python manage.py runserver
  ```
