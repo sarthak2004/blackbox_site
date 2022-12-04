@@ -24,7 +24,7 @@ function App() {
   return (
     <Router>
       <div className="background">
-      <Navbar toggleDrawer={toggleDrawer} />
+      {/* <Navbar toggleDrawer={toggleDrawer} /> */}
       
       <Sidepanel state={state} toggleDrawer={toggleDrawer} />
       
