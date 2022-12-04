@@ -5,6 +5,7 @@ import Col from 'react-bootstrap/Col';
 import Card from 'react-bootstrap/Card';
 import axios from "axios";
 import { FLORIST_API_URL } from "../constants";
+import './SearchCards.css';
 
 const SearchFlorist = () => {
 
@@ -22,6 +23,8 @@ const SearchFlorist = () => {
       },[]);
     
   return (
+    <>
+    <div>
     <Container>
         <Row>
             <Col></Col>
@@ -33,10 +36,9 @@ const SearchFlorist = () => {
                                 <div style={{paddingTop:20}}>
                                     <Card style={{ width: '100%'}}>
                                         <Card.Body>
-                                        <Card.Title>{item.florist_name}</Card.Title>
+                                        <Card.Title><div className='title' >{item.florist_name}</div></Card.Title>
                                         <Card.Text>
                                             <div>
-                                                <strong>Florist Name: </strong> <p>{item.florist_name}</p>
                                                 <strong>Price: </strong> <p>{item.florist_price}</p>
                                                 <strong>Phone Number: </strong> <p>{item.phone_number}</p>
                                             </div>
@@ -52,6 +54,8 @@ const SearchFlorist = () => {
 
         </Row>
     </Container>
+    </div>
+    </>
   )
 }
 

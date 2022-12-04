@@ -5,6 +5,7 @@ import Col from 'react-bootstrap/Col';
 import Card from 'react-bootstrap/Card';
 import axios from "axios";
 import { CATERING_API_URL } from "../constants";
+import './SearchCards.css';
 
 const SearchCatering = () => {
 
@@ -22,6 +23,8 @@ const SearchCatering = () => {
       },[]);
     
   return (
+    <>
+    <div>
     <Container>
         <Row>
             <Col></Col>
@@ -33,10 +36,9 @@ const SearchCatering = () => {
                                 <div style={{paddingTop:20}}>
                                     <Card style={{ width: '100%'}}>
                                         <Card.Body>
-                                        <Card.Title>{item.caterer_name}</Card.Title>
+                                        <Card.Title><div className='title' >{item.caterer_name}</div></Card.Title>
                                         <Card.Text>
                                             <div>
-                                                <strong>Caterer Name: </strong> <p>{item.caterer_name}</p>
                                                 <strong>Catering Price: </strong> <p>{item.catering_price}</p>
                                                 <strong>Phone Number: </strong> <p>{item.phone_number}</p>
                                             </div>
@@ -52,6 +54,8 @@ const SearchCatering = () => {
 
         </Row>
     </Container>
+    </div>
+    </>
   )
 }
 
