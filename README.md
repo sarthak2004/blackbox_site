@@ -15,12 +15,14 @@ Now, move to client folder and install the dependencies
 ```bash
 yarn install 
 ```
-```bash
-attention :- to  run succcefully you have to run 
-python manage.py runserver
 
-and in client directory 
-npm start
+attention :- to  run succcefully you have to run
+```bash
+ python manage.py runserver
+ ```
+```bash
+and in client directory run
+ npm start
 
 ```
 
