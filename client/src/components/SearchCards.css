@@ -1,0 +1,14 @@
+.heading{
+    font-size: larger;
+}
+
+.background{
+    background-image: url('../images/background2opacityfix.png');
+    background-attachment: fixed;
+    background-repeat: calc();
+}
+
+.title{
+    font-size: 50px;
+    font: bold;
+}
