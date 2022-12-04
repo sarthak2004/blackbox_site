@@ -10,34 +10,34 @@ class Banquet_halls(models.Model):
     
 class florist(models.Model):
 
-    florist_name=models.CharField(max_length=100)
-    florist_price=models.CharField(max_length=10)
-    phone_number=models.CharField(max_length=10, default="0000000000")
+    florist_name=models.CharField(gl("florist_name"),max_length=100)
+    florist_price=models.CharField(gl("florist_price"),max_length=10)
+    phone_number=models.CharField(gl("phone_number"),max_length=10, default="0000000000")
 
 class catering(models.Model):
-    caterer_name=models.CharField(max_length=50)
-    catering_price=models.CharField(max_length=10)
-    phone_number=models.CharField(max_length=10, default="0000000000")
+    caterer_name=models.CharField(gl("caterer_name"),max_length=50)
+    catering_price=models.CharField(gl("catering_price"),max_length=10)
+    phone_number=models.CharField(gl("phone_number"),max_length=10, default="0000000000")
 
 
  
 class dj(models.Model):
-    dj_name=models.CharField(max_length=50)
-    dj_price=models.CharField(max_length=10)
-    phone_number=models.CharField(max_length=10, default="0000000000")
+    dj_name=models.CharField(gl("dj_name"),max_length=50)
+    dj_price=models.CharField(gl("dj_price"),max_length=10)
+    phone_number=models.CharField(gl("phone_number"),max_length=10, default="0000000000")
 
 
 class lighting(models.Model):
-    lighting_name=models.CharField(max_length=50)
-    lighting_price=models.CharField(max_length=10)
-    phone_number=models.CharField(max_length=10, default="0000000000")
+    lighting_name=models.CharField(gl("lighting_name"),max_length=50)
+    lighting_price=models.CharField(gl("lighting_price"),max_length=10)
+    phone_number=models.CharField(gl("phone_number"),max_length=10, default="0000000000")
 
 
 
 class photographer(models.Model):
-    photographer_name=models.CharField(max_length=50)
-    photographer_price=models.CharField(max_length=10)
-    phone_number=models.CharField(max_length=10, default="0000000000")
+    photographer_name=models.CharField(gl("photgrapher_name"),max_length=50)
+    photographer_price=models.CharField(gl("photographer_price"),max_length=10)
+    phone_number=models.CharField(gl("phone_number"),max_length=10, default="0000000000")
    
 # class images(models.Model):
 #     banquet_halls=models.ForeignKey(Banquet_halls, on_delete=models.CASCADE)
