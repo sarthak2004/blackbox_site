@@ -4,11 +4,25 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import 'bootstrap/dist/css/bootstrap.css';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Home from './components/Home';
+import CustomNavbar from './components/CustomNavbar'
+import SearchBanquetHalls from './components/SearchBanquetHalls'
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <CustomNavbar />
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route index element={<Home />} />
+        <Route path="/SearchBanquetHalls" element={<SearchBanquetHalls />}>
+        </Route>
+      </Routes>
+    </BrowserRouter>
+      <App />
   </React.StrictMode>
 );
 

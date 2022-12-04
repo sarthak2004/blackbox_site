@@ -1,5 +1,4 @@
 import React from 'react'
-import CustomNavbar from './CustomNavbar'
 // import CardGroup from 'react-bootstrap/CardGroup';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
@@ -15,7 +14,6 @@ import photo from '../images/photographer-resized.png';
 function Home() {
   return (
     <>
-    <CustomNavbar/>
     <Container>
         <div style={{"paddingTop":20}}>
             <Row xs={1} md={3} className="g-4">
