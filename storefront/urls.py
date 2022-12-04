@@ -20,4 +20,9 @@ from backend import views
 urlpatterns = [
     path('admin/', admin.site.urls),
     re_path(r'^api/banquetHalls/$', views.banquet_halls_list),
+    re_path(r'^api/florist/$', views.florist_list),
+    re_path(r'^api/catering/$', views.catering_list),
+    re_path(r'^api/dj/$', views.dj_list),
+    re_path(r'^api/lighting/$', views.lighting_list),
+    re_path(r'^api/photographer/$', views.photographer_list),
 ]

@@ -8,6 +8,12 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from './components/Home';
 import CustomNavbar from './components/CustomNavbar'
 import SearchBanquetHalls from './components/SearchBanquetHalls'
+import SearchCatering from './components/SearchCatering'
+import SearchDj from './components/SearchDj'
+import SearchFlorist from './components/SearchFlorist'
+import SearchLighting from './components/SearchLighting'
+import SearchPhotographer from './components/SearchPhotographer'
+import AboutUs from './components/AboutUs'
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -18,8 +24,14 @@ root.render(
       <Routes>
         <Route path="/" element={<Home />} />
         <Route index element={<Home />} />
-        <Route path="/SearchBanquetHalls" element={<SearchBanquetHalls />}>
-        </Route>
+        <Route path="/SearchBanquetHalls" element={<SearchBanquetHalls />} />
+        <Route path="/SearchCatering" element={<SearchCatering />} />
+        <Route path="/SearchDj" element={<SearchDj />} />
+        <Route path="/SearchFlorist" element={<SearchFlorist />} />
+        <Route path="/SearchLighting" element={<SearchLighting />} />
+        <Route path="/SearchPhotographer" element={<SearchPhotographer />} />
+        <Route path="/AboutUs" element={<AboutUs />} />
+
       </Routes>
     </BrowserRouter>
       <App />

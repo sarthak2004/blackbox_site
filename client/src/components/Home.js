@@ -18,13 +18,13 @@ function Home() {
         <div style={{"paddingTop":20}}>
             <Row xs={1} md={3} className="g-4">
             <Col>
-                <CustomCard title="Banquet Halls" image={Banquet}/>
+                <CustomCard title="Banquet Halls" image={Banquet} linkTo="/SearchBanquetHalls"/>
             </Col>
             <Col>
-                <CustomCard title="Florist" image={florist}/>
+                <CustomCard title="Florist" image={florist} linkTo="/SearchFlorist"/>
             </Col>
             <Col>
-                <CustomCard title="Catering" image={catering}/>
+                <CustomCard title="Catering" image={catering} linkTo="/SearchCatering"/>
             </Col>
         </Row>
         </div>
@@ -32,13 +32,13 @@ function Home() {
         <div style={{"paddingTop":20}}>
             <Row>
                 <Col>
-                    <CustomCard title="DJ" image={DJ}/>
+                    <CustomCard title="DJ" image={DJ} linkTo="/SearchDj"/>
                 </Col>
                 <Col>
-                    <CustomCard title="Lighting" image={lights}/>
+                    <CustomCard title="Lighting" image={lights} linkTo="/SearchLighting"/>
                 </Col>
                 <Col>
-                    <CustomCard title="Photographer" image={photo}/>
+                    <CustomCard title="Photographer" image={photo} linkTo="/SearchPhotographer"/>
                 </Col>
             </Row>
         </div>
