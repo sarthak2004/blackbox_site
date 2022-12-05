@@ -37,7 +37,7 @@ class PhotographerSerializer(serializers.ModelSerializer):
 
 class LightingSerializer(serializers.ModelSerializer):
     class Meta:
-        model = photographer
+        model = lighting
         fields = ['lighting_name', 'lighting_price', 'phone_number']
     # class Meta:
     #     model = images

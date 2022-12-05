@@ -62,7 +62,7 @@ CORS_ORIGIN_ALLOW_ALL = True
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-         'DIRS': [os.path.join(BASE_DIR, "../client/build")],
+         'DIRS': [os.path.join(BASE_DIR, "client/build")],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -141,5 +141,5 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 #self made
 
 STATICFILES_DIRS = [
-    os.path.join(BASE_DIR, "../client/build/static")
+    os.path.join(BASE_DIR, "./client/build/static")
 ]

@@ -16,7 +16,7 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path, re_path
 from backend import views
-
+from django.views.generic import TemplateView
 urlpatterns = [
     path('admin/', admin.site.urls),
     re_path(r'^api/banquetHalls/$', views.banquet_halls_list),
@@ -25,4 +25,5 @@ urlpatterns = [
     re_path(r'^api/dj/$', views.dj_list),
     re_path(r'^api/lighting/$', views.lighting_list),
     re_path(r'^api/photographer/$', views.photographer_list),
+    path('', TemplateView.as_view(template_name='index.html'))
 ]
