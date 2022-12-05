@@ -24,7 +24,7 @@ const SearchFlorist = () => {
     
   return (
     <>
-    <div>
+    <div className='background'>
     <Container>
         <Row>
             <Col></Col>
